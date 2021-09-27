@@ -15,7 +15,7 @@ const httpServer = http.createServer(app);
 
 const io = require('socket.io')(httpServer, {
   cors: {
-    origin: 'http://localhost:3000',
+    origin: 'https://matheus-mysql.herokuapp.com/',
     method: ['GET', 'POST', 'PUT'],
   },
 });
